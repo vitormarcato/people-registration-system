@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+import dao.ConnectDataBase;
 import view.RegisterNewPerson;
 
 public class ConnectionTest {
