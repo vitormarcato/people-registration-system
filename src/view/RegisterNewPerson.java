@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 import model.Person;
 
-public class RegisterNewPersonScreen {
+public class RegisterNewPerson {
 
 	Scanner sc = new Scanner(System.in);
 
 	Person Person = new Person();
 
-	public void newRegisterScreen() {
+	public void newRegister() {
 		
 		System.out.println("New Register\nPlease, enter the first name: ");
 		String firstName = sc.next();
@@ -18,7 +18,7 @@ public class RegisterNewPersonScreen {
 		
 		System.out.println("\nPlease, enter e-mail address: ");
 		String emailAddress = sc.next();
-		Person.setEmailAdderss(emailAddress);
+		Person.setEmailAddress(emailAddress);
 		
 		System.out.println("\nPlease, enter the social security number: ");
 		String socialSecNumber = sc.next();
@@ -34,7 +34,7 @@ public class RegisterNewPersonScreen {
 				
 				
 				"""
-				.formatted(Person.getFirstName(), Person.getEmailAdderss(), Person.getEmailAdderss());
+				.formatted(Person.getFirstName(), Person.getEmailAddress(), Person.getEmailAddress());
 		
 		System.out.println(newRegisterMessage); 
 		}

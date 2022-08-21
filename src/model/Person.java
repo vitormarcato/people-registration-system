@@ -2,11 +2,32 @@ package model;
 
 public class Person {
 	
+	private int id;
 	private String firstName;
 	private String emailAddress;
 	private String socialSecNumber;
 	
+	public Person (int id, String firstName, String emailAddress, String socialSecNumber) {
+		this.id = id;
+		this.firstName = firstName;
+		this.emailAddress = emailAddress;
+		this.socialSecNumber = socialSecNumber;
+	}
 	
+	
+	
+	public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -17,13 +38,13 @@ public class Person {
 	}
 
 
-	public String getEmailAdderss() {
+	public String getEmailAddress() {
 		return emailAddress;
 	}
 
 
-	public void setEmailAdderss(String emailAdderss) {
-		this.emailAddress = emailAdderss;
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
 	}
 
 

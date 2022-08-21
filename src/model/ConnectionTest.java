@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-import view.RegisterNewPersonScreen;
+import view.RegisterNewPerson;
 
 public class ConnectionTest {
 	
@@ -26,7 +26,7 @@ public class ConnectionTest {
 	}
 
 		
-		RegisterNewPersonScreen teste = new RegisterNewPersonScreen();
-		teste.newRegisterScreen();
+		RegisterNewPerson teste = new RegisterNewPerson();
+		teste.newRegister();
 }
 }
