@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import dao.ConnectDataBase;
-import view.RegisterNewPerson;
+import view.RegisterPersonView;
 
 public class ConnectionTest {
 	
@@ -27,7 +27,7 @@ public class ConnectionTest {
 	}
 
 		
-		RegisterNewPerson teste = new RegisterNewPerson();
-		teste.newRegister();
+		RegisterPersonView teste = new RegisterPersonView();
+		teste.printRegisterView();
 }
 }

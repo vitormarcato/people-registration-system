@@ -1,6 +1,6 @@
 package view;
 
-public class WelcomeScreen {
+public class WelcomeView {
 
 	public void welcomeSystemScreen() {
 

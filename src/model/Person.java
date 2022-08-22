@@ -15,6 +15,11 @@ public class Person {
 	}
 
 	
+	public Person(String socialSecNumber) {
+		super();
+		this.socialSecNumber = socialSecNumber;
+	}
+	
 	public Person(String firstName, String emailAddress, String socialSecNumber) {
 		super();
 		this.firstName = firstName;

@@ -1,9 +1,9 @@
 package controller;
 
 import java.util.Scanner;
-
-import view.RegisterNewPerson;
-import view.WelcomeScreen;
+import view.RegisterPersonView;
+import view.SearchView;
+import view.WelcomeView;
 
 public class App {
 
@@ -11,13 +11,20 @@ public class App {
 
 		Scanner sc = new Scanner(System.in);
 
-		WelcomeScreen printWelcome = new WelcomeScreen();
+		WelcomeView printWelcome = new WelcomeView();
 		printWelcome.welcomeSystemScreen();
 		int userOption = Integer.parseInt(sc.nextLine());
 		System.out.println(userOption);
 		
-		RegisterNewPerson createRegister = new RegisterNewPerson();
-		createRegister.newRegister();
+		SearchView searchPerson = new SearchView();
+		searchPerson.printSearchView();
+		
+		/*
+		 * RegisterPersonView createRegister = new RegisterPersonView();
+		 * createRegister.printRegisterView();
+		 */
+		
+		
 		
 		sc.close();
 	}
