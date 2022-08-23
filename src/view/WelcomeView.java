@@ -7,7 +7,7 @@ public class WelcomeView {
 		String welcomeMessage = """
 				________________________________________________
 
-				# Welcome to Media Equipment Rental System #
+				# Welcome to People Registration System #
 				________________________________________________
 
 				# Please, choose an option #
@@ -15,7 +15,8 @@ public class WelcomeView {
 				1 - create new register
 				2 - search person
 				3 - update information
-				4 - delete information
+				4 - delete register
+				5 - show registration list 
 				0 - exit
 					""";
 		System.out.println(welcomeMessage);

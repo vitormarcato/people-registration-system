@@ -1,12 +1,10 @@
 package view;
 
-
 import java.util.Scanner;
 import controller.RegisterPersonController;
 
-
 public class RegisterPersonView {
-	
+
 	private String firstName;
 	private String emailAddress;
 	private String socialSecNumber;
@@ -20,7 +18,7 @@ public class RegisterPersonView {
 	Scanner sc = new Scanner(System.in);
 
 	public void printRegisterView() {
-		
+
 		System.out.println("New Register\nPlease, enter the first name: ");
 		firstName = sc.next();
 
@@ -29,7 +27,7 @@ public class RegisterPersonView {
 
 		System.out.println("\nPlease, enter the social security number: ");
 		socialSecNumber = sc.next();
-		
+
 		newRegisterMessage = """
 
 				New personal information successfully registered
@@ -40,7 +38,7 @@ public class RegisterPersonView {
 
 
 				""".formatted(firstName, emailAddress, socialSecNumber);
-		
+
 		controller.createNewPersonRegister();
 	}
 
@@ -60,4 +58,4 @@ public class RegisterPersonView {
 		return newRegisterMessage;
 	}
 
-	}
+}
