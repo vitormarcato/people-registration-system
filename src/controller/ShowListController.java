@@ -26,10 +26,10 @@ public class ShowListController {
 			
 			ArrayList<Person> listRegistration = selectAll.selectAll();
 			for (Person person : listRegistration) {
-				System.out.print(person.getId());
-				System.out.print(person.getFirstName());
-				System.out.print(person.getEmailAddress());
-				System.out.print(person.getSocialSecNumber());
+				System.out.print(" "+person.getId()+" ");
+				System.out.print(" "+person.getFirstName()+" ");
+				System.out.print(" "+person.getEmailAddress()+" ");
+				System.out.print(" "+person.getSocialSecNumber()+"; ");
 			}
 					
 		} catch (SQLException e) {
