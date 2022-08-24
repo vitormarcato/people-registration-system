@@ -28,7 +28,7 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 
 ### Demo
 ---
-
+<img src="https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif">
 
 ### Prerequisites
 ---
@@ -40,7 +40,20 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 
   1. Clone source code or download .zip file
   
-  `https://github.com/vitormarcato/people-registration-system.git`
+  ```sh
+git clone https://github.com/vitormarcato/people-registration-system.git
+```
   		  
   
-  2. Run Java file "App.java"
+  2. Compile: 
+  
+
+  ```sh
+javac App.java
+```
+
+  3.  Run App class
+  
+  ```sh
+java App
+```
