@@ -1,7 +1,9 @@
 # People Registration System
+---
 People registration system is a back-end application project that provides the user to do some operations related to database of personal information.
 
 ### Why
+---
 
 The project purpose is to practice, study and improve knowledge about programming.
 
@@ -12,6 +14,7 @@ CRUD is an acronym that refers to the four basic functions that are necessary to
 The project is organized to use a DAO (Data Access Object) class to access the database, with the MVC (Model-View-Controller) architectural pattern, using Java and PostgreSQL as a relational database.
 
 ### Features
+---
 
 1 - create new register
 
