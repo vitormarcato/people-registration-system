@@ -1,5 +1,5 @@
 # People Registration System
----
+
 People registration system is a back-end application project that provides the user to do some operations related to database of personal information.
 
 ### Why
