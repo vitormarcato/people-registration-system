@@ -5,7 +5,7 @@ People registration system is a back-end application project that provides the u
 
 The project purpose is to practice, study and improve knowledge about programming.
 
-The challenge was encoding a CRUD back-end application which is responsible to manipulation of data in a relational database.
+The challenge was encoding a CRUD back-end application which is responsible for manipulating data in a relational database.
 
 CRUD is an acronym that refers to the four basic functions that are necessary to implement a persistent storage application: create, read, update and delete.
 
