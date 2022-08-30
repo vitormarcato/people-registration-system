@@ -34,6 +34,7 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 ---
 
   - JDK17 
+  - GIT
   
 ### Building and Running
 ---
