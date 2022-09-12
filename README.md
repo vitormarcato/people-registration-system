@@ -33,7 +33,27 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 ### Prerequisites
 ---
 
-  - JDK17 
+  - JDK17 or later 
+  - PostgreSQL 12
+  
+### Script SQL
+---
+
+
+```
+CREATE DATABASE peopleregister
+WITH
+ENCODING = 'UTF-8'
+CONNECTION LIMIT = -1;
+
+CREATE TABLE person(
+id SERIAL NOT NULL,
+name VARCHAR (255),
+emailaddress VARCHAR (255),
+socialsecnumber char(9)
+);
+
+```
   
 ### Building and Running
 ---
@@ -44,9 +64,7 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 git clone https://github.com/vitormarcato/people-registration-system.git
 ```
   		  
-  
   2. Compile: 
-  
 
   ```sh
 javac App.java
