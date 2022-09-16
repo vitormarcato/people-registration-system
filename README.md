@@ -7,9 +7,8 @@ People registration system is a back-end application project that provides the u
 | :sparkles: Nome        | **People Registration System**
 | :label: Tecnologias | java, postgresql
 
-### Demo
----
-<img src="https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev">
+![image](https://user-images.githubusercontent.com/60930603/190656463-cfd83e56-6a0f-4af9-9dc5-8373100b3af6.png#vitrinedev)
+
 
 ### Why
 ---
@@ -34,6 +33,11 @@ The project is organized to use a DAO (Data Access Object) class to access the d
 4 - delete register
 
 5 - show registration list
+
+### Demo
+---
+<img src="https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev">
+
 
 ### Prerequisites
 ---
