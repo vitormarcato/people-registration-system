@@ -6,6 +6,8 @@ People registration system is a back-end application project that provides the u
 | -------------  | --- |
 | :sparkles: Nome        | **People Registration System**
 | :label: Tecnologias | java, postgresql
+| :rocket: URL         | https://github.com/vitormarcato/people-registration-system
+
 
 ### Demo
 ---
