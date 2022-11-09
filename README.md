@@ -11,7 +11,8 @@ People registration system is a back-end application project that provides the u
 
 ### Demo
 ---
-<img src="https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev">
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev)
 
 
 ### Why
