@@ -2,15 +2,6 @@
 
 People registration system is a back-end application project that provides the user to do some operations related to database of personal information.
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **People Registration System**
-| :label: Tecnologias | java, postgresql
-| :rocket: URL         | https://github.com/vitormarcato/people-registration-system
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80#vitrinedev)
-photo by [Alexandre Debiève](https://unsplash.com/photos/FO7JIlwjOtU) 
-
 ### Demo
 ---
 ![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev)
@@ -85,3 +76,15 @@ javac App.java
   ```sh
 java App
 ```
+
+### VitrineDev - Alura
+---
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **People Registration System**
+| :label: Tecnologias | java, postgresql
+| :rocket: URL         | https://github.com/vitormarcato/people-registration-system
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80#vitrinedev)
+photo by [Alexandre Debiève](https://unsplash.com/photos/FO7JIlwjOtU) 
