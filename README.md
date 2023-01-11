@@ -4,7 +4,7 @@ People registration system is a back-end application project that provides the u
 
 ### Demo
 ---
-![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif)
+![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev)
 
 
 ### Why
@@ -85,6 +85,4 @@ java App
 | :sparkles: Nome        | **People Registration System**
 | :label: Tecnologias | java, postgresql
 | :rocket: URL         | https://github.com/vitormarcato/people-registration-system
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-<img height="160em" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80#vitrinedev"/>
-photo by [Alexandre Debiève](https://unsplash.com/photos/FO7JIlwjOtU) 
+
