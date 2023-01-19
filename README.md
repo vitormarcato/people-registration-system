@@ -74,13 +74,13 @@ socialsecnumber char(9)
 git clone https://github.com/vitormarcato/people-registration-system.git
 ```
   		  
-  2. Compile o código fonte: 
+  2. Por meio de seu terminal, dentro da pasta **src**, execute o comando abaixo    
 
   ```sh
 javac App.java
 ```
 
-  3.  Execute a classe App
+  3. Na sequência, execute o comando abaixo
   
   ```sh
 java App
