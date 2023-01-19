@@ -1,7 +1,12 @@
 # People Registration System
 
+<div id="sobre">
+
 People registration system is a back-end application project that provides the user to do some operations related to database of personal information.
 
+</div>
+  
+  
 ### Demo
 ---
 ![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif#vitrinedev)
@@ -55,7 +60,8 @@ socialsecnumber char(9)
 );
 
 ```
-  
+<div id="run">
+
 ### Building and Running
 ---
 
@@ -76,6 +82,7 @@ javac App.java
   ```sh
 java App
 ```
+</div>
 
 ### VitrineDev - Alura
 ---
@@ -84,5 +91,6 @@ java App
 | -------------  | --- |
 | :sparkles: Nome        | **People Registration System**
 | :label: Tecnologias | java, postgresql
-| :rocket: URL         | https://github.com/vitormarcato/people-registration-system
+| :rocket: URL         |  Veja como executar no link: [**Executar**](#run)
+| :fire: Desafio     | Veja seção no link: [**Sobre**](#sobre)
 
