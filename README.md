@@ -1,3 +1,93 @@
+# Sistema de Cadastro de Pessoas
+
+
+ O sistema de cadastro de pessoas é uma aplicação back-end que fornece algumas funcionalidades básicas de cadastro de informações pessoais para o usuário. 
+
+  
+### Captura de tela
+---
+![](https://media.giphy.com/media/pIlauUMGVf7ZWuRKac/giphy.gif)
+
+
+<div id="sobre">
+
+
+### Motivação
+---
+
+A proposta do projeto é praticar, estudar e desenvolver o conhecimento sobre programação.
+
+O desafio é codificar, em linguagem Java, uma aplicação  CRUD de back-end capaz de manipular um banco de dados relacional.
+
+CRUD  é um acrônimo que refere-se a operações básicas: Criar, ler, atualizar e deletar dados. 
+
+O projeto está organizado para que seja usado uma classe DAO (Data Acess Object), com padrão arquitetural MVC (Model View Controller), utilizando a linguagem de programção Java e PostgreSQL para banco de dados relacional. 
+
+</div>
+  
+
+### Funcionalidades
+---
+
+1 - criar novo registro
+
+2 - pesquisar registro
+
+3 - atualizar informações
+
+4 - deletar registro
+
+5 - mostrar lista de registros 
+
+### Dependências
+---
+
+  - Java 17 ou posterior 
+  - PostgreSQL 12
+  
+### Script SQL
+---
+
+
+```
+CREATE DATABASE peopleregister
+WITH
+ENCODING = 'UTF-8'
+CONNECTION LIMIT = -1;
+
+CREATE TABLE person(
+id SERIAL NOT NULL,
+name VARCHAR (255),
+emailaddress VARCHAR (255),
+socialsecnumber char(9)
+);
+
+```
+<div id="run">
+
+### Como executar
+---
+
+  1. Clone o repositório ou faça o download do arquivo .zip
+  
+  ```sh
+git clone https://github.com/vitormarcato/people-registration-system.git
+```
+  		  
+  2. Compile o código fonte: 
+
+  ```sh
+javac App.java
+```
+
+  3.  Execute a classe App
+  
+  ```sh
+java App
+```
+</div>
+
+[us]
 # People Registration System
 
 <div id="sobre">
